@@ -2,22 +2,22 @@ package day01;
 
 public class Test02 {
 	public static void main(String [] args) {
-		System.out.println("ÀÌ¸§ : È«±æµ¿");
-		System.out.println("³ªÀÌ : 20»ì");
-		System.out.println("ÁÖ¼Ò : »ê°ñÂ¥±â");
-		String name ="È«±æµ¿";
+		System.out.println("ì´ë¦„ : í™ê¸¸ë™");
+		System.out.println("ë‚˜ì´ : 20ì‚´");
+		System.out.println("ì£¼ì†Œ : ì‚°ê³¨ì§œê¸°");
+		String name ="í™ê¸¸ë™";
 		int age = 20;
-		String str = "»ê°ñÂ¥±â";
-		System.out.println("ÀÌ¸§ : " + name);
-		System.out.println("³ªÀÌ : " + age + "»ì");
-		System.out.println("ÁÖ¼Ò : " + str);
+		String str = "ì‚°ê³¨ì§œê¸°";
+		System.out.println("ì´ë¦„ : " + name);
+		System.out.println("ë‚˜ì´ : " + age + "ì‚´");
+		System.out.println("ì£¼ì†Œ : " + str);
 		
-		// \n : ¿£ÅÍ¿Í ºñ½Á, \t : ÅÇÅ©±â¸¸Å­(½ºÆäÀÌ½º¹Ù 8Ä­) ¿ŞÂÊÀ¸·Î ÀÌµ¿
-		// \"(Å«µû¿ÈÇ¥ Ç¥Çö), \\ : (¿ª½½·¯½Ã ÇÏ³ªÇ¥Çö)
-		System.out.println("¾È\n³ç\nÇÏ\n¼¼\n¿ä");
+		// \n : ì—”í„°ì™€ ë¹„ìŠ·, \t : íƒ­í¬ê¸°ë§Œí¼(ìŠ¤í˜ì´ìŠ¤ë°” 8ì¹¸) ì™¼ìª½ìœ¼ë¡œ ì´ë™
+		// \"(í°ë”°ì˜´í‘œ í‘œí˜„), \\ : (ì—­ìŠ¬ëŸ¬ì‹œ í•˜ë‚˜í‘œí˜„)
+		System.out.println("ì•ˆ\në…•\ní•˜\nì„¸\nìš”");
 		System.out.println("12345678\t12\t12");
-		System.out.println("\"¾È³çÇÏ¼¼¿ä\"");
-		System.out.println("¾È\\³ç");
-		System.out.println("I:\\¾È ³ç\"");
+		System.out.println("\"ì•ˆë…•í•˜ì„¸ìš”\"");
+		System.out.println("ì•ˆ\\ë…•");
+		System.out.println("I:\\ì•ˆ ë…•\"");
 	}
 }

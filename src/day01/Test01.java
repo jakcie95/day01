@@ -2,13 +2,13 @@ package day01;
 
 public class Test01 {
 	public static void main(String[] args) {
-		//method ´Â ±â´ÉÀÌ¶ó°í Ç¥ÇöÇÑ´Ù.
-		//println´Â ¸¶Áö¸·¿¡ ¿£ÅÍ°¡ ÀÚµ¿À¸·Î Àû¿ëµÈ´Ù.
+		//method ëŠ” ê¸°ëŠ¥ì´ë¼ê³  í‘œí˜„í•œë‹¤.
+		//printlnëŠ” ë§ˆì§€ë§‰ì— ì—”í„°ê°€ ìë™ìœ¼ë¡œ ì ìš©ëœë‹¤.
 		/*
-		System.out.println("¾È³çÇÏ¼¼¿ä(¿£ÅÍ)");
-		System.out.println("¹İ°©½À´Ï´Ù(¿£ÅÍ)");
+		System.out.println("ì•ˆë…•í•˜ì„¸ìš”(ì—”í„°)");
+		System.out.println("ë°˜ê°‘ìŠµë‹ˆë‹¤(ì—”í„°)");
 		*/
-		System.out.print("¾È³çÇÏ¼¼¿ä");
-		System.out.print("¹İ°©½À´Ï´Ù");
+		System.out.print("ì•ˆë…•í•˜ì„¸ìš”");
+		System.out.print("ë°˜ê°‘ìŠµë‹ˆë‹¤");
 	}
 }

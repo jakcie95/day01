@@ -3,17 +3,17 @@ package quiz;
 public class Quiz01 {
 
 	public static void main(String[] args) {
-		String name = "±è¸»ÀÌ";
+		String name = "ê¹€ë§ì´";
 		int age = 20;
 		double height = 173.3;
 		int iq = 120;
 		char grade = 'B';
 		
-		System.out.println("ÀÌ¸§ : " + name);
-		System.out.println("³ªÀÌ : " + age);
-		System.out.println("Å° : " + height);
-		System.out.println("¾ÆÀÌÅ¥ : " + iq);
-		System.out.println("µî±Ş : " + grade);
+		System.out.println("ì´ë¦„ : " + name);
+		System.out.println("ë‚˜ì´ : " + age);
+		System.out.println("í‚¤ : " + height);
+		System.out.println("ì•„ì´í : " + iq);
+		System.out.println("ë“±ê¸‰ : " + grade);
 
 	}
 

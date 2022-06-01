@@ -5,21 +5,21 @@ public class Test03 {
 		System.out.println(100);
 		System.out.println(100.123);
 		System.out.println(100 + 1.123);
-		System.out.println("¾È³ç" + "ÇÏ¼¼¿ä");
-		System.out.println("¾È³ç" + 100);
-		System.out.println("¾È³ç" + (100 + 200));
+		System.out.println("ì•ˆë…•" + "í•˜ì„¸ìš”");
+		System.out.println("ì•ˆë…•" + 100);
+		System.out.println("ì•ˆë…•" + (100 + 200));
 		System.out.println(1+""+2);
-		//³» Ç®ÀÌ
-		System.out.println("ÀÌ¸§" + "\t" + "³ªÀÌ" + "\t" + "ÀüÈ­¹øÈ£" +"\t" + "\t" +"È¸ºñ");
-		System.out.println("È«±æµ¿" +"\t" + "\"15\"" + "\t" +3672 + "-" + 1234 + "\t" +"\\20000");
-		System.out.println("°í±æµ¿" +"\t" + "\"15\"" + "\t" +2238 + "-" + 1234 + "\t" +"\\30000");
-		System.out.println("±è¸»ÀÌ" +"\t" + "\"15\""+ "\t" + 1234 + "-" + 1234 + "\t" + "\\50000");
-		System.out.println("ÃÑÇÕ°è" + "\t" +"\t" + "\t" + " \t" + "\\100000");
-		//Ç®ÀÌ½Ä
-		System.out.println("ÀÌ¸§\t³ªÀÌ\tÀüÈ­¹øÈ£\t\t È¸ºñ");
-		System.out.println("È«±æµ¿\t\""+15+"\"\t"+3672+"-"+1234+"\t\\" +20000);
-		System.out.println("°í±æµ¿\t\""+15+"\"\t"+2238+"-"+1234+"\t\\" +30000);
-		System.out.println("±è¸»ÀÌ\t\""+15+"\"\t"+1234+"-"+1234+"\t\\" +50000);
-		System.out.println("ÃÑÇÕ°è\t\t\t\t\\"+100000);
+		//ë‚´ í’€ì´
+		System.out.println("ì´ë¦„" + "\t" + "ë‚˜ì´" + "\t" + "ì „í™”ë²ˆí˜¸" +"\t" + "\t" +"íšŒë¹„");
+		System.out.println("í™ê¸¸ë™" +"\t" + "\"15\"" + "\t" +3672 + "-" + 1234 + "\t" +"\\20000");
+		System.out.println("ê³ ê¸¸ë™" +"\t" + "\"15\"" + "\t" +2238 + "-" + 1234 + "\t" +"\\30000");
+		System.out.println("ê¹€ë§ì´" +"\t" + "\"15\""+ "\t" + 1234 + "-" + 1234 + "\t" + "\\50000");
+		System.out.println("ì´í•©ê³„" + "\t" +"\t" + "\t" + " \t" + "\\100000");
+		//í’€ì´ì‹
+		System.out.println("ì´ë¦„\të‚˜ì´\tì „í™”ë²ˆí˜¸\t\t íšŒë¹„");
+		System.out.println("í™ê¸¸ë™\t\""+15+"\"\t"+3672+"-"+1234+"\t\\" +20000);
+		System.out.println("ê³ ê¸¸ë™\t\""+15+"\"\t"+2238+"-"+1234+"\t\\" +30000);
+		System.out.println("ê¹€ë§ì´\t\""+15+"\"\t"+1234+"-"+1234+"\t\\" +50000);
+		System.out.println("ì´í•©ê³„\t\t\t\t\\"+100000);
 	}
 }

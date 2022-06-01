@@ -1,8 +1,8 @@
 package day01;
 /*
- bit : 2Áø¼öÀÇ ÇÑÀÚ¸®°¡ 1bit
+ bit : 2ì§„ìˆ˜ì˜ í•œìë¦¬ê°€ 1bit
  1byte : 8bit
- type	Å©±â(byte)		¹üÀ§
+ type	í¬ê¸°(byte)		ë²”ìœ„
   ---------------------------------
  byte	1				-128 ~ 127
  short	2				-32768 ~ 32767
@@ -10,32 +10,32 @@ package day01;
  int	4
  float	4
  double 8
- void	°ªÀ» °®Áö ¾Ê´Â Æ¯¼öÇÑ µ¥ÀÌÅÍ Çü
+ void	ê°’ì„ ê°–ì§€ ì•ŠëŠ” íŠ¹ìˆ˜í•œ ë°ì´í„° í˜•
  */
 public class Test04 {
 	public static void main(String[] args) {
-	int age =25; //int : Á¤¼ö(À½¼ö,¾ç¼ö) Ç¥Çö
-	double weight = 55.9; //½Ç¼ö Ç¥Çö
+	int age =25; //int : ì •ìˆ˜(ìŒìˆ˜,ì–‘ìˆ˜) í‘œí˜„
+	double weight = 55.9; //ì‹¤ìˆ˜ í‘œí˜„
 	double height = 160.0;
-	System.out.println("³ªÀÇ ³ªÀÌ´Â "+ age+"»ì");
-	System.out.println("³ªÀÇ Å°´Â " + height+"cm");
-	System.out.println("³ªÀÇ ¸ö¹«°Ô´Â " + weight+"kg");
-	// char¹®ÀÚ ÇÏ³ª Ç¥ÇöÇÒ¶§ »ç¿ë
-	// ¹®ÀÚ ÇÏ³ª´Â ÀÛÀº µû¿ÈÇ¥·Î Ç¥ÇöÇØ¾ß ÇÑ´Ù.
+	System.out.println("ë‚˜ì˜ ë‚˜ì´ëŠ” "+ age+"ì‚´");
+	System.out.println("ë‚˜ì˜ í‚¤ëŠ” " + height+"cm");
+	System.out.println("ë‚˜ì˜ ëª¸ë¬´ê²ŒëŠ” " + weight+"kg");
+	// charë¬¸ì í•˜ë‚˜ í‘œí˜„í• ë•Œ ì‚¬ìš©
+	// ë¬¸ì í•˜ë‚˜ëŠ” ì‘ì€ ë”°ì˜´í‘œë¡œ í‘œí˜„í•´ì•¼ í•œë‹¤.
 	char ch = 'A';
-	System.out.println("º¯°æÀü : "+ ch);
+	System.out.println("ë³€ê²½ì „ : "+ ch);
 	ch = 'B';
-	System.out.println("º¯°æÈÄ : "+ ch);
+	System.out.println("ë³€ê²½í›„ : "+ ch);
 	
-	System.out.println("¿¬»ê : "+ (ch+32));
-	System.out.println("¿¬»ê : "+ (char)(ch+32));
-	System.out.println("¿¬»ê : "+ (double)(ch+32));
+	System.out.println("ì—°ì‚° : "+ (ch+32));
+	System.out.println("ì—°ì‚° : "+ (char)(ch+32));
+	System.out.println("ì—°ì‚° : "+ (double)(ch+32));
 	
 	System.out.println( 1.111 );
 	System.out.println((int)12.111 );
-	String n = "È«±æµ¿";
-	System.out.println(n+"´Ô ¾È³çÇÏ¼¼¿ä");
-	n = "±è°³¶Ë";
-	System.out.println("ÀÌ¸§ º¯°æ : "+n);
+	String n = "í™ê¸¸ë™";
+	System.out.println(n+"ë‹˜ ì•ˆë…•í•˜ì„¸ìš”");
+	n = "ê¹€ê°œë˜¥";
+	System.out.println("ì´ë¦„ ë³€ê²½ : "+n);
 }
 }
